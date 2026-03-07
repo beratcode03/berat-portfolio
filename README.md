@@ -5,18 +5,18 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-Modern, interaktif ve yüksek performanslı dijital vitrinim. Bu portfolyo, geliştirdiğim projeleri ve teknik yetkinliklerimi sergilemek amacıyla modern web teknolojileriyle inşa edilmiştir.
+My modern, interactive, and high-performance digital showcase. This portfolio is built with modern web technologies to present my projects and technical skills.
 
 ## 🔥 Featured Project: Quantpraxus
-Bu portfolyonun en önemli parçası olan **Quantpraxus**, YKS hazırlık sürecini analiz eden, Electron tabanlı bir performans takip sistemidir. 
+The most important part of this portfolio, **Quantpraxus**, is an Electron-based performance tracking system that analyzes the university exam (YKS) preparation process. 
 - **Tech:** React, Node.js, Electron, PostgreSQL.
 
-## ✨ Sitenin Öne Çıkan Özellikleri
+## ✨ Key Features of the Website
 
-* **Atatürk Özel Bölümü:** Kendime idol olarak belirlediğim ve fikirlerinin izinden gittiğim büyük önder Gazi Mustafa Kemal Atatürk’e adanmış, Bloom hover efektli özel saygı alanı.
-* **Interaktif IDE Bileşeni:** C# syntax highlighting içeren, fare hareketlerini takip eden 3D-parallax kod editörü görünümü.
-* **Crypto & Glitch UI:** Modern siber temalı görsel efektler ve "scrambling" animasyonlu logolar.
-* **Responsive & Performans odaklı:** Tailwind CSS ile tüm cihazlara tam uyumlu, Vite ile yıldırım hızında çalışma.
+* **Atatürk Tribute Section:** A special tribute area dedicated to the great leader Gazi Mustafa Kemal Atatürk, whom I set as my idol and whose ideas I follow. It features a custom bloom hover effect.
+* **Interactive IDE Component:** A 3D-parallax code editor view that follows mouse movements, featuring C# syntax highlighting.
+* **Crypto & Glitch UI:** Modern cyber-themed visual effects and logos with "scrambling" animations.
+* **Responsive & Performance-Oriented:** Fully compatible with all devices using Tailwind CSS, and lightning-fast loading times with Vite.
 
 ## 🛠️ Tech Stack
 
@@ -29,10 +29,10 @@ Bu portfolyonun en önemli parçası olan **Quantpraxus**, YKS hazırlık sürec
 
 ```text
 src/
-├── components/        # Yeniden kullanılabilir UI bileşenleri (Header, Hero, Skills)
-├── data/              # Proje ve yetenek verilerinin (Quantpraxus vb.) tutulduğu JSON dosyaları
-├── pages/             # Ana sayfa görünümleri
-└── styles/            # Global stiller ve Tailwind konfigürasyonu
+├── components/        # Reusable UI components (Header, Hero, Skills, etc.)
+├── data/              # JSON/JS files storing project and skills data
+├── pages/             # Main page views
+└── styles/            # Global styles and Tailwind configuration
 
 🚀 Getting Started
 Clone the repository:
@@ -42,7 +42,7 @@ git clone [https://github.com/beratcode03/berat-portfolio.git](https://github.co
 Navigate to the project directory:
 
 Bash
-cd beratcode-dev
+cd berat-portfolio
 Install dependencies:
 
 Bash

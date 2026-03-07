@@ -2,15 +2,19 @@ export const projects = [
   {
     id: 1,
     title: "Quantpraxus",
-    desc: "YKS hazırlık sürecini veri analitiği ile optimize eden, web ve masaüstü (Electron) destekli full-stack performans takip platformu. 1000+ veri setinde yüksek performanslı analiz ve timezone normalizasyonu sağlar.",
+    repoName: "quantpraxus", 
+    desc: "A full-stack performance tracking platform supported by web and desktop (Electron) that optimizes the exam preparation process with data analytics. It provides high-performance analysis and timezone normalization on 1000+ datasets.",
     tech: ["React", "TypeScript", "Node.js", "Electron", "Tailwind CSS"],
-    link: "https://github.com/beratcode03/quantpraxus"
+    link: "https://github.com/beratcode03/quantpraxus",
+    demoLink: "https://quantpraxus.vercel.app/"
   },
   {
     id: 2,
     title: "Personal Portfolio",
-    desc: "Modern web teknolojileriyle geliştirilmiş, projelerimi ve teknik yetkinliklerimi sergileyen interaktif dijital kimlik platformu.",
+    repoName: "berat-portfolio", 
+    desc: "An interactive digital identity platform developed with modern web technologies, showcasing my projects and technical skills.",
     tech: ["React", "Tailwind", "Vite"],
-    link: "https://github.com/beratcode03/berat-portfolio"
+    link: "https://github.com/beratcode03/berat-portfolio",
+    demoLink: "https://berat-portfolio.vercel.app/" 
   }
 ];

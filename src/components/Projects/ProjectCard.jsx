@@ -1,10 +1,10 @@
+import { Link } from 'react-router-dom';
+
 const ProjectCard = ({ project }) => {
   return (
-    <a 
-      href={project.link} 
-      target="_blank" 
-      rel="noopener noreferrer"
-      className="group bg-surface border border-white/5 rounded-lg p-6 hover:border-primary/50 transition-all hover:shadow-[0_0_20px_rgba(139,92,246,0.1)] flex flex-col h-full relative overflow-hidden"
+    <Link 
+      to={`/projects/${project.id}`} 
+      className="group bg-surface border border-white/5 rounded-lg p-6 hover:border-primary/50 transition-all hover:shadow-[0_0_20px_rgba(139,92,246,0.1)] flex flex-col h-full relative overflow-hidden block"
     >
       <div className="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-100 transition-opacity">
         <span className="text-4xl">↗</span>
@@ -27,7 +27,7 @@ const ProjectCard = ({ project }) => {
           </span>
         ))}
       </div>
-    </a>
+    </Link>
   );
 };
 
