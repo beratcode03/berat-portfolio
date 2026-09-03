@@ -10,6 +10,14 @@ export const projects = [
   },
   {
     id: 2,
+    title: "TÜRASAŞ Intranet",
+    repoName: "turasas-intranet",
+    desc: "Modern corporate intranet for TÜRASAŞ Sakarya Regional Directorate, with internal news, an apps hub, media gallery, meal menus, and an integrated admin CMS.",
+    tech: ["React", "TypeScript", "Node.js", "Express", "Tailwind CSS"],
+    link: "https://github.com/beratcode03/turasas-intranet"
+  },
+  {
+    id: 3,
     title: "Personal Portfolio",
     repoName: "berat-portfolio", 
     desc: "An interactive digital identity platform developed with modern web technologies, showcasing my projects and technical skills.",
